@@ -47,6 +47,9 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
+/* .btn-signup:hover{
+  background-color:red ;
+} */
 .banner {
   display: flex;
   justify-content: center;
@@ -260,6 +263,7 @@ form input,textarea {
   width: 497px;
   padding: 20px 32px;
   border-radius: 10px;
+  border: 1px solid #D6DDED;
 }
 form label {
   color: #000;
@@ -327,4 +331,12 @@ margin-left: 48px;
 margin-top: 20px;
 color: #8987A1
 }
+.link a:hover{
+  color: green;
+}
 /* footer end */
+
+.btn-hover:hover{
+  background-color: orange;
+  cursor: pointer;
+}
