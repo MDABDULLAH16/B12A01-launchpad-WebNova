@@ -151,6 +151,54 @@ btn-banner {
 }
 /* productivity-slat end*/
 
+/* customer review start  */
+.reviews-container{
+  margin-bottom: 137px;
+}
+.title{
+  color: #252432;
+margin-bottom: 50px;
+text-align: center;
+font-family: Raleway;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card-container{
+  border: 1px solid #F2EDED;
+  border-radius: 14px;
+  background: #FFFFFF;
+  width: 319px;
+  padding: 24px;
+ 
+
+}
+.review-card-container{
+display: flex;
+justify-content: space-between;
+}
+.icon-container{
+  margin-bottom: 24px;
+}
+.review-title-container{
+  margin-bottom: 24px;
+}
+.review-title{
+  font-family: Inter, sans-serif;
+  margin-bottom: 8px;
+  line-height: 24px;
+}
+.profile{
+  display: flex;
+  gap: 14px;
+}
+.profile-img{
+  border-radius: 50%;
+}
+/* customer review end */
+
+
 /* fucus-container start */
 
 .fucus-container {
