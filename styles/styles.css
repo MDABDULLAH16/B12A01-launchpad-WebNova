@@ -194,3 +194,55 @@ btn-banner {
   align-items: center;
 }
 /* fucus-container end */
+
+/* form styles start */
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 71px;
+  margin-bottom: 71px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input,textarea {
+  background-color: white;
+  width: 497px;
+  padding: 20px 32px;
+  border-radius: 10px;
+}
+form label {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.form-title {
+  color: #000;
+  font-family: Raleway;
+  font-size: 97px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 116.4px */
+}
+.btn-submit{
+  background-color: #4E47FF;
+  border: none;
+  border-radius: 10px;
+  color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height:24px 
+;
+margin-top: 20px;
+}
+/* form styles end */
