@@ -1,15 +1,22 @@
 * {
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f8ff;
+  font-family: sans-serif;
 }
 .container {
   margin-left: 5%;
   margin-right: 5%;
+  background: transparent;
 }
 .banner-bg {
   background-image: url("../Assets/Hero-bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
+
   /* height: 698px; */
 }
 .logo {
@@ -25,6 +32,7 @@
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  background: transparent;
 }
 .btn-signup {
   background-color: #4e47ff;
@@ -33,37 +41,67 @@
   padding: 12px 36px 12px 36px;
   border: none;
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
-.banner{
-display: flex
-;
-justify-content: center;
-align-items: center;
-padding-bottom: 200px;
- 
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
 }
-.banner-text-container{
+.banner-text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  background: transparent;
 }
-.banner-text{
+.banner-text {
   color: #252432;
-text-align: center;
-font-family: Raleway,sans-serif;
-font-size: 50px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 158px;
-padding-bottom: 37px;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 158px;
+  padding-bottom: 37px;
 }
-btn-banner{
-margin: 0 auto;
+btn-banner {
+  margin: 0 auto;
+}
+/* banner section end */
+
+/* action section start */
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 116px;
+  margin-bottom: 166px;
+}
+.action-image {
+  border-radius: 48px;
+}
+.action-header {
+  color: #252432;
+
+  font-family: Raleway;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.action-text {
+  margin-bottom: 23px;
+  margin-top: 23px;
+  color: rgba(37, 36, 50, 0.5);
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
 }
